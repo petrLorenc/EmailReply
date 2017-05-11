@@ -1,0 +1,314 @@
+(JESSIE)petrlorenc2@skirit:/storage/praha1/home/petrlorenc2/keras$ cat metacentrum_LSTM_CNN.sh.o1439668
+
+Indexing word vectors.
+Loading Glove Model
+Done. 6861  words loaded!
+Processing text dataset
+Found 5452 texts.
+Found 8461 unique tokens.
+Shape of data tensor: (5452, 39)
+Shape of label tensor: (5452, 6)
+Preparing embedding matrix.
+Training model.
+Train on 4907 samples, validate on 545 samples
+Epoch 1/100
+4896/4907 [============================>.] - ETA: 0s - loss: 2.2400 - mean_absolute_error: 0.2750 - acc: 0.2457Epoch 00000: val_acc improved from -inf to 0.30092, saving model to ./train_model/weights-model_LSTM_CNN-improvement-00-0.30.hdf5
+4907/4907 [==============================] - 10s - loss: 2.2398 - mean_absolute_error: 0.2750 - acc: 0.2462 - val_loss: 2.1827 - val_mean_absolute_error: 0.2723 - val_acc: 0.3009
+Epoch 2/100
+4896/4907 [============================>.] - ETA: 0s - loss: 2.1473 - mean_absolute_error: 0.2705 - acc: 0.2917Epoch 00001: val_acc did not improve
+4907/4907 [==============================] - 7s - loss: 2.1473 - mean_absolute_error: 0.2705 - acc: 0.2916 - val_loss: 2.1018 - val_mean_absolute_error: 0.2683 - val_acc: 0.2991
+Epoch 3/100
+4896/4907 [============================>.] - ETA: 0s - loss: 2.0733 - mean_absolute_error: 0.2666 - acc: 0.3209Epoch 00002: val_acc improved from 0.30092 to 0.32294, saving model to ./train_model/weights-model_LSTM_CNN-improvement-02-0.32.hdf5
+4907/4907 [==============================] - 7s - loss: 2.0734 - mean_absolute_error: 0.2666 - acc: 0.3206 - val_loss: 2.0336 - val_mean_absolute_error: 0.2648 - val_acc: 0.3229
+Epoch 4/100
+4864/4907 [============================>.] - ETA: 0s - loss: 2.0102 - mean_absolute_error: 0.2633 - acc: 0.3692Epoch 00003: val_acc improved from 0.32294 to 0.40917, saving model to ./train_model/weights-model_LSTM_CNN-improvement-03-0.41.hdf5
+4907/4907 [==============================] - 7s - loss: 2.0097 - mean_absolute_error: 0.2632 - acc: 0.3695 - val_loss: 1.9621 - val_mean_absolute_error: 0.2608 - val_acc: 0.4092
+Epoch 5/100
+4896/4907 [============================>.] - ETA: 0s - loss: 1.9350 - mean_absolute_error: 0.2583 - acc: 0.4024Epoch 00004: val_acc improved from 0.40917 to 0.41651, saving model to ./train_model/weights-model_LSTM_CNN-improvement-04-0.42.hdf5
+4907/4907 [==============================] - 7s - loss: 1.9354 - mean_absolute_error: 0.2583 - acc: 0.4019 - val_loss: 1.8817 - val_mean_absolute_error: 0.2543 - val_acc: 0.4165
+Epoch 6/100
+4864/4907 [============================>.] - ETA: 0s - loss: 1.8483 - mean_absolute_error: 0.2506 - acc: 0.4285Epoch 00005: val_acc improved from 0.41651 to 0.44404, saving model to ./train_model/weights-model_LSTM_CNN-improvement-05-0.44.hdf5
+4907/4907 [==============================] - 8s - loss: 1.8479 - mean_absolute_error: 0.2506 - acc: 0.4273 - val_loss: 1.7872 - val_mean_absolute_error: 0.2456 - val_acc: 0.4440
+Epoch 7/100
+4896/4907 [============================>.] - ETA: 0s - loss: 1.7532 - mean_absolute_error: 0.2409 - acc: 0.4516Epoch 00006: val_acc improved from 0.44404 to 0.48257, saving model to ./train_model/weights-model_LSTM_CNN-improvement-06-0.48.hdf5
+4907/4907 [==============================] - 7s - loss: 1.7532 - mean_absolute_error: 0.2409 - acc: 0.4514 - val_loss: 1.6874 - val_mean_absolute_error: 0.2336 - val_acc: 0.4826
+Epoch 8/100
+4864/4907 [============================>.] - ETA: 0s - loss: 1.6544 - mean_absolute_error: 0.2286 - acc: 0.4984Epoch 00007: val_acc improved from 0.48257 to 0.55229, saving model to ./train_model/weights-model_LSTM_CNN-improvement-07-0.55.hdf5
+4907/4907 [==============================] - 8s - loss: 1.6536 - mean_absolute_error: 0.2285 - acc: 0.4983 - val_loss: 1.6017 - val_mean_absolute_error: 0.2228 - val_acc: 0.5523
+Epoch 9/100
+4896/4907 [============================>.] - ETA: 0s - loss: 1.5576 - mean_absolute_error: 0.2169 - acc: 0.5355Epoch 00008: val_acc improved from 0.55229 to 0.59450, saving model to ./train_model/weights-model_LSTM_CNN-improvement-08-0.59.hdf5
+4907/4907 [==============================] - 8s - loss: 1.5572 - mean_absolute_error: 0.2169 - acc: 0.5360 - val_loss: 1.5045 - val_mean_absolute_error: 0.2109 - val_acc: 0.5945
+Epoch 10/100
+4896/4907 [============================>.] - ETA: 0s - loss: 1.4581 - mean_absolute_error: 0.2044 - acc: 0.5803Epoch 00009: val_acc improved from 0.59450 to 0.60367, saving model to ./train_model/weights-model_LSTM_CNN-improvement-09-0.60.hdf5
+4907/4907 [==============================] - 7s - loss: 1.4581 - mean_absolute_error: 0.2044 - acc: 0.5804 - val_loss: 1.4408 - val_mean_absolute_error: 0.1999 - val_acc: 0.6037
+Epoch 11/100
+4896/4907 [============================>.] - ETA: 0s - loss: 1.3477 - mean_absolute_error: 0.1891 - acc: 0.6266Epoch 00010: val_acc improved from 0.60367 to 0.64037, saving model to ./train_model/weights-model_LSTM_CNN-improvement-10-0.64.hdf5
+4907/4907 [==============================] - 7s - loss: 1.3475 - mean_absolute_error: 0.1892 - acc: 0.6269 - val_loss: 1.3231 - val_mean_absolute_error: 0.1843 - val_acc: 0.6404
+Epoch 12/100
+4896/4907 [============================>.] - ETA: 0s - loss: 1.2412 - mean_absolute_error: 0.1739 - acc: 0.6562Epoch 00011: val_acc improved from 0.64037 to 0.66422, saving model to ./train_model/weights-model_LSTM_CNN-improvement-11-0.66.hdf5
+4907/4907 [==============================] - 7s - loss: 1.2430 - mean_absolute_error: 0.1740 - acc: 0.6556 - val_loss: 1.2338 - val_mean_absolute_error: 0.1717 - val_acc: 0.6642
+Epoch 13/100
+4896/4907 [============================>.] - ETA: 0s - loss: 1.1619 - mean_absolute_error: 0.1622 - acc: 0.6836Epoch 00012: val_acc did not improve
+4907/4907 [==============================] - 7s - loss: 1.1624 - mean_absolute_error: 0.1622 - acc: 0.6831 - val_loss: 1.4453 - val_mean_absolute_error: 0.1753 - val_acc: 0.5853
+Epoch 14/100
+4896/4907 [============================>.] - ETA: 0s - loss: 1.0899 - mean_absolute_error: 0.1511 - acc: 0.7077Epoch 00013: val_acc improved from 0.66422 to 0.72477, saving model to ./train_model/weights-model_LSTM_CNN-improvement-13-0.72.hdf5
+4907/4907 [==============================] - 8s - loss: 1.0899 - mean_absolute_error: 0.1511 - acc: 0.7078 - val_loss: 1.0892 - val_mean_absolute_error: 0.1476 - val_acc: 0.7248
+Epoch 15/100
+4896/4907 [============================>.] - ETA: 0s - loss: 1.0205 - mean_absolute_error: 0.1417 - acc: 0.7312Epoch 00014: val_acc improved from 0.72477 to 0.75229, saving model to ./train_model/weights-model_LSTM_CNN-improvement-14-0.75.hdf5
+4907/4907 [==============================] - 8s - loss: 1.0198 - mean_absolute_error: 0.1416 - acc: 0.7316 - val_loss: 0.9920 - val_mean_absolute_error: 0.1363 - val_acc: 0.7523
+Epoch 16/100
+4896/4907 [============================>.] - ETA: 0s - loss: 0.9520 - mean_absolute_error: 0.1310 - acc: 0.7531Epoch 00015: val_acc improved from 0.75229 to 0.76881, saving model to ./train_model/weights-model_LSTM_CNN-improvement-15-0.77.hdf5
+4907/4907 [==============================] - 8s - loss: 0.9516 - mean_absolute_error: 0.1309 - acc: 0.7532 - val_loss: 0.9502 - val_mean_absolute_error: 0.1279 - val_acc: 0.7688
+Epoch 17/100
+4896/4907 [============================>.] - ETA: 0s - loss: 0.8895 - mean_absolute_error: 0.1222 - acc: 0.7684Epoch 00016: val_acc did not improve
+4907/4907 [==============================] - 8s - loss: 0.8892 - mean_absolute_error: 0.1221 - acc: 0.7687 - val_loss: 0.9416 - val_mean_absolute_error: 0.1253 - val_acc: 0.7358
+Epoch 18/100
+4896/4907 [============================>.] - ETA: 0s - loss: 0.8455 - mean_absolute_error: 0.1158 - acc: 0.7812Epoch 00017: val_acc improved from 0.76881 to 0.78532, saving model to ./train_model/weights-model_LSTM_CNN-improvement-17-0.79.hdf5
+4907/4907 [==============================] - 8s - loss: 0.8447 - mean_absolute_error: 0.1156 - acc: 0.7817 - val_loss: 0.8596 - val_mean_absolute_error: 0.1130 - val_acc: 0.7853
+Epoch 19/100
+4896/4907 [============================>.] - ETA: 0s - loss: 0.8003 - mean_absolute_error: 0.1092 - acc: 0.7925Epoch 00018: val_acc did not improve
+4907/4907 [==============================] - 7s - loss: 0.7996 - mean_absolute_error: 0.1091 - acc: 0.7927 - val_loss: 0.8250 - val_mean_absolute_error: 0.1099 - val_acc: 0.7835
+Epoch 20/100
+4896/4907 [============================>.] - ETA: 0s - loss: 0.7483 - mean_absolute_error: 0.1021 - acc: 0.8070Epoch 00019: val_acc improved from 0.78532 to 0.80367, saving model to ./train_model/weights-model_LSTM_CNN-improvement-19-0.80.hdf5
+4907/4907 [==============================] - 7s - loss: 0.7481 - mean_absolute_error: 0.1021 - acc: 0.8070 - val_loss: 0.8037 - val_mean_absolute_error: 0.1043 - val_acc: 0.8037
+Epoch 21/100
+4864/4907 [============================>.] - ETA: 0s - loss: 0.7164 - mean_absolute_error: 0.0974 - acc: 0.8164Epoch 00020: val_acc did not improve
+4907/4907 [==============================] - 8s - loss: 0.7160 - mean_absolute_error: 0.0975 - acc: 0.8162 - val_loss: 0.7916 - val_mean_absolute_error: 0.1021 - val_acc: 0.7963
+Epoch 22/100
+4896/4907 [============================>.] - ETA: 0s - loss: 0.6934 - mean_absolute_error: 0.0947 - acc: 0.8280Epoch 00021: val_acc improved from 0.80367 to 0.80917, saving model to ./train_model/weights-model_LSTM_CNN-improvement-21-0.81.hdf5
+4907/4907 [==============================] - 7s - loss: 0.6938 - mean_absolute_error: 0.0947 - acc: 0.8278 - val_loss: 0.7640 - val_mean_absolute_error: 0.0983 - val_acc: 0.8092
+Epoch 23/100
+4864/4907 [============================>.] - ETA: 0s - loss: 0.6459 - mean_absolute_error: 0.0881 - acc: 0.8417Epoch 00022: val_acc did not improve
+4907/4907 [==============================] - 8s - loss: 0.6451 - mean_absolute_error: 0.0880 - acc: 0.8419 - val_loss: 1.2694 - val_mean_absolute_error: 0.1328 - val_acc: 0.6459
+Epoch 24/100
+4896/4907 [============================>.] - ETA: 0s - loss: 0.6260 - mean_absolute_error: 0.0859 - acc: 0.8417Epoch 00023: val_acc improved from 0.80917 to 0.81284, saving model to ./train_model/weights-model_LSTM_CNN-improvement-23-0.81.hdf5
+4907/4907 [==============================] - 8s - loss: 0.6253 - mean_absolute_error: 0.0858 - acc: 0.8419 - val_loss: 0.7409 - val_mean_absolute_error: 0.0937 - val_acc: 0.8128
+Epoch 25/100
+4896/4907 [============================>.] - ETA: 0s - loss: 0.5723 - mean_absolute_error: 0.0781 - acc: 0.8615Epoch 00024: val_acc improved from 0.81284 to 0.82018, saving model to ./train_model/weights-model_LSTM_CNN-improvement-24-0.82.hdf5
+4907/4907 [==============================] - 8s - loss: 0.5721 - mean_absolute_error: 0.0781 - acc: 0.8616 - val_loss: 0.7638 - val_mean_absolute_error: 0.0926 - val_acc: 0.8202
+Epoch 26/100
+4896/4907 [============================>.] - ETA: 0s - loss: 0.5753 - mean_absolute_error: 0.0786 - acc: 0.8556Epoch 00025: val_acc did not improve
+4907/4907 [==============================] - 8s - loss: 0.5749 - mean_absolute_error: 0.0785 - acc: 0.8557 - val_loss: 0.7571 - val_mean_absolute_error: 0.0940 - val_acc: 0.7761
+Epoch 27/100
+4864/4907 [============================>.] - ETA: 0s - loss: 0.5512 - mean_absolute_error: 0.0753 - acc: 0.8647Epoch 00026: val_acc improved from 0.82018 to 0.83486, saving model to ./train_model/weights-model_LSTM_CNN-improvement-26-0.83.hdf5
+4907/4907 [==============================] - 8s - loss: 0.5507 - mean_absolute_error: 0.0752 - acc: 0.8649 - val_loss: 0.6890 - val_mean_absolute_error: 0.0828 - val_acc: 0.8349
+Epoch 28/100
+4896/4907 [============================>.] - ETA: 0s - loss: 0.5108 - mean_absolute_error: 0.0703 - acc: 0.8764Epoch 00027: val_acc did not improve
+4907/4907 [==============================] - 7s - loss: 0.5111 - mean_absolute_error: 0.0704 - acc: 0.8763 - val_loss: 0.7708 - val_mean_absolute_error: 0.0915 - val_acc: 0.7927
+Epoch 29/100
+4864/4907 [============================>.] - ETA: 0s - loss: 0.5020 - mean_absolute_error: 0.0697 - acc: 0.8756Epoch 00028: val_acc did not improve
+4907/4907 [==============================] - 8s - loss: 0.5030 - mean_absolute_error: 0.0698 - acc: 0.8755 - val_loss: 0.7058 - val_mean_absolute_error: 0.0842 - val_acc: 0.8220
+Epoch 30/100
+4896/4907 [============================>.] - ETA: 0s - loss: 0.4889 - mean_absolute_error: 0.0663 - acc: 0.8772Epoch 00029: val_acc did not improve
+4907/4907 [==============================] - 8s - loss: 0.4888 - mean_absolute_error: 0.0663 - acc: 0.8773 - val_loss: 0.7755 - val_mean_absolute_error: 0.0903 - val_acc: 0.8055
+Epoch 31/100
+4896/4907 [============================>.] - ETA: 0s - loss: 0.4619 - mean_absolute_error: 0.0641 - acc: 0.8858Epoch 00030: val_acc did not improve
+4907/4907 [==============================] - 7s - loss: 0.4614 - mean_absolute_error: 0.0641 - acc: 0.8861 - val_loss: 0.6592 - val_mean_absolute_error: 0.0781 - val_acc: 0.8294
+Epoch 32/100
+4896/4907 [============================>.] - ETA: 0s - loss: 0.4319 - mean_absolute_error: 0.0598 - acc: 0.8922Epoch 00031: val_acc did not improve
+4907/4907 [==============================] - 7s - loss: 0.4319 - mean_absolute_error: 0.0598 - acc: 0.8920 - val_loss: 0.7150 - val_mean_absolute_error: 0.0811 - val_acc: 0.8110
+Epoch 33/100
+4896/4907 [============================>.] - ETA: 0s - loss: 0.4268 - mean_absolute_error: 0.0585 - acc: 0.8960Epoch 00032: val_acc did not improve
+4907/4907 [==============================] - 8s - loss: 0.4269 - mean_absolute_error: 0.0585 - acc: 0.8959 - val_loss: 0.7086 - val_mean_absolute_error: 0.0803 - val_acc: 0.8147
+Epoch 34/100
+4896/4907 [============================>.] - ETA: 0s - loss: 0.4004 - mean_absolute_error: 0.0550 - acc: 0.9038Epoch 00033: val_acc did not improve
+4907/4907 [==============================] - 7s - loss: 0.4001 - mean_absolute_error: 0.0550 - acc: 0.9040 - val_loss: 0.6439 - val_mean_absolute_error: 0.0772 - val_acc: 0.8330
+Epoch 35/100
+4864/4907 [============================>.] - ETA: 0s - loss: 0.3864 - mean_absolute_error: 0.0537 - acc: 0.9069Epoch 00034: val_acc did not improve
+4907/4907 [==============================] - 8s - loss: 0.3862 - mean_absolute_error: 0.0537 - acc: 0.9071 - val_loss: 0.7023 - val_mean_absolute_error: 0.0745 - val_acc: 0.8239
+Epoch 36/100
+4896/4907 [============================>.] - ETA: 0s - loss: 0.3660 - mean_absolute_error: 0.0504 - acc: 0.9134Epoch 00035: val_acc did not improve
+4907/4907 [==============================] - 7s - loss: 0.3663 - mean_absolute_error: 0.0504 - acc: 0.9130 - val_loss: 1.1461 - val_mean_absolute_error: 0.0949 - val_acc: 0.7413
+Epoch 37/100
+4864/4907 [============================>.] - ETA: 0s - loss: 0.3636 - mean_absolute_error: 0.0498 - acc: 0.9165Epoch 00036: val_acc did not improve
+4907/4907 [==============================] - 8s - loss: 0.3629 - mean_absolute_error: 0.0497 - acc: 0.9169 - val_loss: 0.8195 - val_mean_absolute_error: 0.0924 - val_acc: 0.7541
+Epoch 38/100
+4896/4907 [============================>.] - ETA: 0s - loss: 0.3486 - mean_absolute_error: 0.0481 - acc: 0.9150Epoch 00037: val_acc did not improve
+4907/4907 [==============================] - 8s - loss: 0.3487 - mean_absolute_error: 0.0482 - acc: 0.9148 - val_loss: 0.7129 - val_mean_absolute_error: 0.0763 - val_acc: 0.8202
+Epoch 39/100
+4896/4907 [============================>.] - ETA: 0s - loss: 0.3332 - mean_absolute_error: 0.0460 - acc: 0.9165Epoch 00038: val_acc did not improve
+4907/4907 [==============================] - 8s - loss: 0.3331 - mean_absolute_error: 0.0460 - acc: 0.9164 - val_loss: 0.7135 - val_mean_absolute_error: 0.0733 - val_acc: 0.8239
+Epoch 40/100
+4896/4907 [============================>.] - ETA: 0s - loss: 0.3298 - mean_absolute_error: 0.0453 - acc: 0.9216Epoch 00039: val_acc did not improve
+4907/4907 [==============================] - 8s - loss: 0.3296 - mean_absolute_error: 0.0453 - acc: 0.9217 - val_loss: 0.7286 - val_mean_absolute_error: 0.0743 - val_acc: 0.8257
+Epoch 41/100
+4896/4907 [============================>.] - ETA: 0s - loss: 0.3240 - mean_absolute_error: 0.0446 - acc: 0.9234Epoch 00040: val_acc did not improve
+4907/4907 [==============================] - 8s - loss: 0.3237 - mean_absolute_error: 0.0446 - acc: 0.9234 - val_loss: 0.6574 - val_mean_absolute_error: 0.0738 - val_acc: 0.8239
+Epoch 42/100
+4896/4907 [============================>.] - ETA: 0s - loss: 0.2928 - mean_absolute_error: 0.0410 - acc: 0.9322Epoch 00041: val_acc did not improve
+4907/4907 [==============================] - 7s - loss: 0.2932 - mean_absolute_error: 0.0411 - acc: 0.9321 - val_loss: 0.8465 - val_mean_absolute_error: 0.0803 - val_acc: 0.7927
+Epoch 43/100
+4864/4907 [============================>.] - ETA: 0s - loss: 0.3005 - mean_absolute_error: 0.0420 - acc: 0.9254Epoch 00042: val_acc did not improve
+4907/4907 [==============================] - 7s - loss: 0.3002 - mean_absolute_error: 0.0420 - acc: 0.9252 - val_loss: 0.7860 - val_mean_absolute_error: 0.0749 - val_acc: 0.8073
+Epoch 44/100
+4896/4907 [============================>.] - ETA: 0s - loss: 0.2880 - mean_absolute_error: 0.0399 - acc: 0.9350Epoch 00043: val_acc did not improve
+4907/4907 [==============================] - 7s - loss: 0.2876 - mean_absolute_error: 0.0399 - acc: 0.9352 - val_loss: 0.7381 - val_mean_absolute_error: 0.0724 - val_acc: 0.8294
+Epoch 45/100
+4864/4907 [============================>.] - ETA: 0s - loss: 0.2614 - mean_absolute_error: 0.0358 - acc: 0.9424Epoch 00044: val_acc did not improve
+4907/4907 [==============================] - 8s - loss: 0.2622 - mean_absolute_error: 0.0359 - acc: 0.9417 - val_loss: 0.7160 - val_mean_absolute_error: 0.0686 - val_acc: 0.8239
+Epoch 46/100
+4896/4907 [============================>.] - ETA: 0s - loss: 0.2816 - mean_absolute_error: 0.0390 - acc: 0.9367Epoch 00045: val_acc did not improve
+4907/4907 [==============================] - 7s - loss: 0.2815 - mean_absolute_error: 0.0390 - acc: 0.9366 - val_loss: 0.7405 - val_mean_absolute_error: 0.0696 - val_acc: 0.8220
+Epoch 47/100
+4896/4907 [============================>.] - ETA: 0s - loss: 0.2607 - mean_absolute_error: 0.0362 - acc: 0.9406Epoch 00046: val_acc improved from 0.83486 to 0.83670, saving model to ./train_model/weights-model_LSTM_CNN-improvement-46-0.84.hdf5
+4907/4907 [==============================] - 7s - loss: 0.2603 - mean_absolute_error: 0.0362 - acc: 0.9407 - val_loss: 0.6890 - val_mean_absolute_error: 0.0698 - val_acc: 0.8367
+Epoch 48/100
+4896/4907 [============================>.] - ETA: 0s - loss: 0.2496 - mean_absolute_error: 0.0350 - acc: 0.9414Epoch 00047: val_acc did not improve
+4907/4907 [==============================] - 8s - loss: 0.2502 - mean_absolute_error: 0.0351 - acc: 0.9411 - val_loss: 0.7896 - val_mean_absolute_error: 0.0700 - val_acc: 0.8183
+Epoch 49/100
+4896/4907 [============================>.] - ETA: 0s - loss: 0.2493 - mean_absolute_error: 0.0348 - acc: 0.9420Epoch 00048: val_acc did not improve
+4907/4907 [==============================] - 7s - loss: 0.2493 - mean_absolute_error: 0.0348 - acc: 0.9419 - val_loss: 0.6716 - val_mean_absolute_error: 0.0661 - val_acc: 0.8367
+Epoch 50/100
+4896/4907 [============================>.] - ETA: 0s - loss: 0.2415 - mean_absolute_error: 0.0338 - acc: 0.9432Epoch 00049: val_acc did not improve
+4907/4907 [==============================] - 8s - loss: 0.2419 - mean_absolute_error: 0.0339 - acc: 0.9429 - val_loss: 0.7372 - val_mean_absolute_error: 0.0720 - val_acc: 0.8239
+Epoch 51/100
+4864/4907 [============================>.] - ETA: 0s - loss: 0.2604 - mean_absolute_error: 0.0361 - acc: 0.9416Epoch 00050: val_acc did not improve
+4907/4907 [==============================] - 8s - loss: 0.2596 - mean_absolute_error: 0.0360 - acc: 0.9419 - val_loss: 0.6799 - val_mean_absolute_error: 0.0663 - val_acc: 0.8367
+Epoch 52/100
+4896/4907 [============================>.] - ETA: 0s - loss: 0.2179 - mean_absolute_error: 0.0309 - acc: 0.9514Epoch 00051: val_acc did not improve
+4907/4907 [==============================] - 8s - loss: 0.2178 - mean_absolute_error: 0.0309 - acc: 0.9515 - val_loss: 0.7430 - val_mean_absolute_error: 0.0688 - val_acc: 0.8128
+Epoch 53/100
+4896/4907 [============================>.] - ETA: 0s - loss: 0.2078 - mean_absolute_error: 0.0294 - acc: 0.9514Epoch 00052: val_acc did not improve
+4907/4907 [==============================] - 8s - loss: 0.2075 - mean_absolute_error: 0.0294 - acc: 0.9515 - val_loss: 0.8660 - val_mean_absolute_error: 0.0737 - val_acc: 0.8147
+Epoch 54/100
+4864/4907 [============================>.] - ETA: 0s - loss: 0.2082 - mean_absolute_error: 0.0291 - acc: 0.9505Epoch 00053: val_acc did not improve
+4907/4907 [==============================] - 7s - loss: 0.2081 - mean_absolute_error: 0.0292 - acc: 0.9505 - val_loss: 0.7119 - val_mean_absolute_error: 0.0668 - val_acc: 0.8275
+Epoch 55/100
+4864/4907 [============================>.] - ETA: 0s - loss: 0.2084 - mean_absolute_error: 0.0294 - acc: 0.9496Epoch 00054: val_acc did not improve
+4907/4907 [==============================] - 8s - loss: 0.2080 - mean_absolute_error: 0.0293 - acc: 0.9499 - val_loss: 0.7428 - val_mean_absolute_error: 0.0678 - val_acc: 0.8330
+Epoch 56/100
+4896/4907 [============================>.] - ETA: 0s - loss: 0.1989 - mean_absolute_error: 0.0285 - acc: 0.9549Epoch 00055: val_acc did not improve
+4907/4907 [==============================] - 8s - loss: 0.1986 - mean_absolute_error: 0.0284 - acc: 0.9550 - val_loss: 0.7000 - val_mean_absolute_error: 0.0641 - val_acc: 0.8367
+Epoch 57/100
+4896/4907 [============================>.] - ETA: 0s - loss: 0.1887 - mean_absolute_error: 0.0265 - acc: 0.9567Epoch 00056: val_acc did not improve
+4907/4907 [==============================] - 8s - loss: 0.1884 - mean_absolute_error: 0.0265 - acc: 0.9568 - val_loss: 0.7540 - val_mean_absolute_error: 0.0650 - val_acc: 0.8330
+Epoch 58/100
+4896/4907 [============================>.] - ETA: 0s - loss: 0.1817 - mean_absolute_error: 0.0250 - acc: 0.9612Epoch 00057: val_acc did not improve
+4907/4907 [==============================] - 8s - loss: 0.1819 - mean_absolute_error: 0.0250 - acc: 0.9611 - val_loss: 0.7696 - val_mean_absolute_error: 0.0668 - val_acc: 0.8312
+Epoch 59/100
+4896/4907 [============================>.] - ETA: 0s - loss: 0.1766 - mean_absolute_error: 0.0246 - acc: 0.9632Epoch 00058: val_acc improved from 0.83670 to 0.83853, saving model to ./train_model/weights-model_LSTM_CNN-improvement-58-0.84.hdf5
+4907/4907 [==============================] - 8s - loss: 0.1763 - mean_absolute_error: 0.0246 - acc: 0.9633 - val_loss: 0.7295 - val_mean_absolute_error: 0.0626 - val_acc: 0.8385
+Epoch 60/100
+4896/4907 [============================>.] - ETA: 0s - loss: 0.1774 - mean_absolute_error: 0.0245 - acc: 0.9647Epoch 00059: val_acc did not improve
+4907/4907 [==============================] - 8s - loss: 0.1771 - mean_absolute_error: 0.0244 - acc: 0.9647 - val_loss: 0.7612 - val_mean_absolute_error: 0.0638 - val_acc: 0.8367
+Epoch 61/100
+4896/4907 [============================>.] - ETA: 0s - loss: 0.1772 - mean_absolute_error: 0.0253 - acc: 0.9608Epoch 00060: val_acc improved from 0.83853 to 0.84220, saving model to ./train_model/weights-model_LSTM_CNN-improvement-60-0.84.hdf5
+4907/4907 [==============================] - 8s - loss: 0.1774 - mean_absolute_error: 0.0254 - acc: 0.9607 - val_loss: 0.7274 - val_mean_absolute_error: 0.0636 - val_acc: 0.8422
+Epoch 62/100
+4864/4907 [============================>.] - ETA: 0s - loss: 0.1641 - mean_absolute_error: 0.0233 - acc: 0.9650Epoch 00061: val_acc did not improve
+4907/4907 [==============================] - 8s - loss: 0.1650 - mean_absolute_error: 0.0234 - acc: 0.9647 - val_loss: 0.8326 - val_mean_absolute_error: 0.0696 - val_acc: 0.8183
+Epoch 63/100
+4896/4907 [============================>.] - ETA: 0s - loss: 0.1656 - mean_absolute_error: 0.0239 - acc: 0.9645Epoch 00062: val_acc did not improve
+4907/4907 [==============================] - 8s - loss: 0.1661 - mean_absolute_error: 0.0239 - acc: 0.9643 - val_loss: 0.9022 - val_mean_absolute_error: 0.0814 - val_acc: 0.7615
+Epoch 64/100
+4896/4907 [============================>.] - ETA: 0s - loss: 0.1572 - mean_absolute_error: 0.0220 - acc: 0.9669Epoch 00063: val_acc did not improve
+4907/4907 [==============================] - 8s - loss: 0.1571 - mean_absolute_error: 0.0220 - acc: 0.9670 - val_loss: 0.7038 - val_mean_absolute_error: 0.0610 - val_acc: 0.8404
+Epoch 65/100
+4896/4907 [============================>.] - ETA: 0s - loss: 0.1418 - mean_absolute_error: 0.0199 - acc: 0.9708Epoch 00064: val_acc did not improve
+4907/4907 [==============================] - 8s - loss: 0.1416 - mean_absolute_error: 0.0199 - acc: 0.9709 - val_loss: 0.8561 - val_mean_absolute_error: 0.0669 - val_acc: 0.8257
+Epoch 66/100
+4896/4907 [============================>.] - ETA: 0s - loss: 0.1626 - mean_absolute_error: 0.0231 - acc: 0.9641Epoch 00065: val_acc did not improve
+4907/4907 [==============================] - 8s - loss: 0.1625 - mean_absolute_error: 0.0231 - acc: 0.9641 - val_loss: 0.7491 - val_mean_absolute_error: 0.0617 - val_acc: 0.8385
+Epoch 67/100
+4896/4907 [============================>.] - ETA: 0s - loss: 0.1453 - mean_absolute_error: 0.0206 - acc: 0.9692Epoch 00066: val_acc improved from 0.84220 to 0.84404, saving model to ./train_model/weights-model_LSTM_CNN-improvement-66-0.84.hdf5
+4907/4907 [==============================] - 8s - loss: 0.1453 - mean_absolute_error: 0.0206 - acc: 0.9692 - val_loss: 0.7501 - val_mean_absolute_error: 0.0614 - val_acc: 0.8440
+Epoch 68/100
+4896/4907 [============================>.] - ETA: 0s - loss: 0.1416 - mean_absolute_error: 0.0195 - acc: 0.9720Epoch 00067: val_acc did not improve
+4907/4907 [==============================] - 8s - loss: 0.1419 - mean_absolute_error: 0.0195 - acc: 0.9719 - val_loss: 0.8090 - val_mean_absolute_error: 0.0671 - val_acc: 0.8312
+Epoch 69/100
+4896/4907 [============================>.] - ETA: 0s - loss: 0.1461 - mean_absolute_error: 0.0209 - acc: 0.9700Epoch 00068: val_acc did not improve
+4907/4907 [==============================] - 8s - loss: 0.1459 - mean_absolute_error: 0.0208 - acc: 0.9700 - val_loss: 0.7321 - val_mean_absolute_error: 0.0614 - val_acc: 0.8440
+Epoch 70/100
+4896/4907 [============================>.] - ETA: 0s - loss: 0.1490 - mean_absolute_error: 0.0210 - acc: 0.9683Epoch 00069: val_acc did not improve
+4907/4907 [==============================] - 8s - loss: 0.1488 - mean_absolute_error: 0.0210 - acc: 0.9684 - val_loss: 0.7573 - val_mean_absolute_error: 0.0648 - val_acc: 0.8294
+Epoch 71/100
+4896/4907 [============================>.] - ETA: 0s - loss: 0.1359 - mean_absolute_error: 0.0193 - acc: 0.9722Epoch 00070: val_acc did not improve
+4907/4907 [==============================] - 8s - loss: 0.1357 - mean_absolute_error: 0.0193 - acc: 0.9723 - val_loss: 0.7081 - val_mean_absolute_error: 0.0611 - val_acc: 0.8385
+Epoch 72/100
+4864/4907 [============================>.] - ETA: 0s - loss: 0.1407 - mean_absolute_error: 0.0197 - acc: 0.9706Epoch 00071: val_acc did not improve
+4907/4907 [==============================] - 8s - loss: 0.1403 - mean_absolute_error: 0.0197 - acc: 0.9709 - val_loss: 0.8044 - val_mean_absolute_error: 0.0615 - val_acc: 0.8367
+Epoch 73/100
+4896/4907 [============================>.] - ETA: 0s - loss: 0.1253 - mean_absolute_error: 0.0176 - acc: 0.9739Epoch 00072: val_acc did not improve
+4907/4907 [==============================] - 8s - loss: 0.1252 - mean_absolute_error: 0.0176 - acc: 0.9739 - val_loss: 0.7957 - val_mean_absolute_error: 0.0602 - val_acc: 0.8422
+Epoch 74/100
+4896/4907 [============================>.] - ETA: 0s - loss: 0.1350 - mean_absolute_error: 0.0185 - acc: 0.9728Epoch 00073: val_acc did not improve
+4907/4907 [==============================] - 7s - loss: 0.1348 - mean_absolute_error: 0.0185 - acc: 0.9729 - val_loss: 0.7359 - val_mean_absolute_error: 0.0609 - val_acc: 0.8330
+Epoch 75/100
+4896/4907 [============================>.] - ETA: 0s - loss: 0.1321 - mean_absolute_error: 0.0187 - acc: 0.9726Epoch 00074: val_acc did not improve
+4907/4907 [==============================] - 7s - loss: 0.1324 - mean_absolute_error: 0.0187 - acc: 0.9725 - val_loss: 1.5176 - val_mean_absolute_error: 0.1024 - val_acc: 0.7046
+Epoch 76/100
+4896/4907 [============================>.] - ETA: 0s - loss: 0.1339 - mean_absolute_error: 0.0186 - acc: 0.9747Epoch 00075: val_acc did not improve
+4907/4907 [==============================] - 8s - loss: 0.1339 - mean_absolute_error: 0.0186 - acc: 0.9747 - val_loss: 0.7392 - val_mean_absolute_error: 0.0588 - val_acc: 0.8440
+Epoch 77/100
+4896/4907 [============================>.] - ETA: 0s - loss: 0.1153 - mean_absolute_error: 0.0163 - acc: 0.9786Epoch 00076: val_acc did not improve
+4907/4907 [==============================] - 8s - loss: 0.1153 - mean_absolute_error: 0.0163 - acc: 0.9786 - val_loss: 0.7713 - val_mean_absolute_error: 0.0601 - val_acc: 0.8385
+Epoch 78/100
+4864/4907 [============================>.] - ETA: 0s - loss: 0.1168 - mean_absolute_error: 0.0168 - acc: 0.9770Epoch 00077: val_acc did not improve
+4907/4907 [==============================] - 8s - loss: 0.1163 - mean_absolute_error: 0.0167 - acc: 0.9772 - val_loss: 0.7136 - val_mean_absolute_error: 0.0610 - val_acc: 0.8385
+Epoch 79/100
+4864/4907 [============================>.] - ETA: 0s - loss: 0.1244 - mean_absolute_error: 0.0177 - acc: 0.9733Epoch 00078: val_acc did not improve
+4907/4907 [==============================] - 8s - loss: 0.1238 - mean_absolute_error: 0.0176 - acc: 0.9735 - val_loss: 0.7316 - val_mean_absolute_error: 0.0590 - val_acc: 0.8440
+Epoch 80/100
+4896/4907 [============================>.] - ETA: 0s - loss: 0.1202 - mean_absolute_error: 0.0174 - acc: 0.9757Epoch 00079: val_acc improved from 0.84404 to 0.84587, saving model to ./train_model/weights-model_LSTM_CNN-improvement-79-0.85.hdf5
+4907/4907 [==============================] - 8s - loss: 0.1201 - mean_absolute_error: 0.0174 - acc: 0.9757 - val_loss: 0.6877 - val_mean_absolute_error: 0.0606 - val_acc: 0.8459
+Epoch 81/100
+4896/4907 [============================>.] - ETA: 0s - loss: 0.1194 - mean_absolute_error: 0.0177 - acc: 0.9759Epoch 00080: val_acc did not improve
+4907/4907 [==============================] - 8s - loss: 0.1192 - mean_absolute_error: 0.0176 - acc: 0.9760 - val_loss: 0.7697 - val_mean_absolute_error: 0.0599 - val_acc: 0.8367
+Epoch 82/100
+4864/4907 [============================>.] - ETA: 0s - loss: 0.1133 - mean_absolute_error: 0.0167 - acc: 0.9762Epoch 00081: val_acc did not improve
+4907/4907 [==============================] - 7s - loss: 0.1133 - mean_absolute_error: 0.0167 - acc: 0.9762 - val_loss: 0.9312 - val_mean_absolute_error: 0.0686 - val_acc: 0.8220
+Epoch 83/100
+4864/4907 [============================>.] - ETA: 0s - loss: 0.1102 - mean_absolute_error: 0.0156 - acc: 0.9803Epoch 00082: val_acc did not improve
+4907/4907 [==============================] - 7s - loss: 0.1103 - mean_absolute_error: 0.0155 - acc: 0.9802 - val_loss: 0.7604 - val_mean_absolute_error: 0.0624 - val_acc: 0.8312
+Epoch 84/100
+4896/4907 [============================>.] - ETA: 0s - loss: 0.1089 - mean_absolute_error: 0.0154 - acc: 0.9796Epoch 00083: val_acc did not improve
+4907/4907 [==============================] - 8s - loss: 0.1088 - mean_absolute_error: 0.0154 - acc: 0.9796 - val_loss: 0.7598 - val_mean_absolute_error: 0.0614 - val_acc: 0.8422
+Epoch 85/100
+4864/4907 [============================>.] - ETA: 0s - loss: 0.0973 - mean_absolute_error: 0.0140 - acc: 0.9813Epoch 00084: val_acc did not improve
+4907/4907 [==============================] - 7s - loss: 0.0972 - mean_absolute_error: 0.0140 - acc: 0.9813 - val_loss: 0.7673 - val_mean_absolute_error: 0.0605 - val_acc: 0.8367
+Epoch 86/100
+4896/4907 [============================>.] - ETA: 0s - loss: 0.1166 - mean_absolute_error: 0.0162 - acc: 0.9751Epoch 00085: val_acc did not improve
+4907/4907 [==============================] - 8s - loss: 0.1165 - mean_absolute_error: 0.0162 - acc: 0.9751 - val_loss: 0.7603 - val_mean_absolute_error: 0.0633 - val_acc: 0.8404
+Epoch 87/100
+4896/4907 [============================>.] - ETA: 0s - loss: 0.1001 - mean_absolute_error: 0.0149 - acc: 0.9794Epoch 00086: val_acc did not improve
+4907/4907 [==============================] - 7s - loss: 0.1000 - mean_absolute_error: 0.0149 - acc: 0.9794 - val_loss: 0.7978 - val_mean_absolute_error: 0.0600 - val_acc: 0.8459
+Epoch 88/100
+4864/4907 [============================>.] - ETA: 0s - loss: 0.1055 - mean_absolute_error: 0.0147 - acc: 0.9788Epoch 00087: val_acc did not improve
+4907/4907 [==============================] - 7s - loss: 0.1051 - mean_absolute_error: 0.0146 - acc: 0.9790 - val_loss: 0.9054 - val_mean_absolute_error: 0.0626 - val_acc: 0.8404
+Epoch 89/100
+4896/4907 [============================>.] - ETA: 0s - loss: 0.1115 - mean_absolute_error: 0.0161 - acc: 0.9755Epoch 00088: val_acc did not improve
+4907/4907 [==============================] - 7s - loss: 0.1116 - mean_absolute_error: 0.0161 - acc: 0.9753 - val_loss: 0.7967 - val_mean_absolute_error: 0.0649 - val_acc: 0.8330
+Epoch 90/100
+4864/4907 [============================>.] - ETA: 0s - loss: 0.1014 - mean_absolute_error: 0.0150 - acc: 0.9799Epoch 00089: val_acc did not improve
+4907/4907 [==============================] - 7s - loss: 0.1020 - mean_absolute_error: 0.0151 - acc: 0.9794 - val_loss: 1.0049 - val_mean_absolute_error: 0.0733 - val_acc: 0.7927
+Epoch 91/100
+4896/4907 [============================>.] - ETA: 0s - loss: 0.0968 - mean_absolute_error: 0.0139 - acc: 0.9804Epoch 00090: val_acc did not improve
+4907/4907 [==============================] - 7s - loss: 0.0967 - mean_absolute_error: 0.0138 - acc: 0.9804 - val_loss: 0.7321 - val_mean_absolute_error: 0.0587 - val_acc: 0.8422
+Epoch 92/100
+4896/4907 [============================>.] - ETA: 0s - loss: 0.0953 - mean_absolute_error: 0.0142 - acc: 0.9810Epoch 00091: val_acc did not improve
+4907/4907 [==============================] - 7s - loss: 0.0952 - mean_absolute_error: 0.0142 - acc: 0.9810 - val_loss: 0.7146 - val_mean_absolute_error: 0.0588 - val_acc: 0.8422
+Epoch 93/100
+4864/4907 [============================>.] - ETA: 0s - loss: 0.1022 - mean_absolute_error: 0.0151 - acc: 0.9747Epoch 00092: val_acc did not improve
+4907/4907 [==============================] - 7s - loss: 0.1024 - mean_absolute_error: 0.0151 - acc: 0.9747 - val_loss: 0.7633 - val_mean_absolute_error: 0.0583 - val_acc: 0.8459
+Epoch 94/100
+4864/4907 [============================>.] - ETA: 0s - loss: 0.0884 - mean_absolute_error: 0.0130 - acc: 0.9858Epoch 00093: val_acc did not improve
+4907/4907 [==============================] - 7s - loss: 0.0885 - mean_absolute_error: 0.0130 - acc: 0.9855 - val_loss: 0.8146 - val_mean_absolute_error: 0.0604 - val_acc: 0.8440
+Epoch 95/100
+4896/4907 [============================>.] - ETA: 0s - loss: 0.0960 - mean_absolute_error: 0.0140 - acc: 0.9796Epoch 00094: val_acc improved from 0.84587 to 0.84954, saving model to ./train_model/weights-model_LSTM_CNN-improvement-94-0.85.hdf5
+4907/4907 [==============================] - 7s - loss: 0.0959 - mean_absolute_error: 0.0139 - acc: 0.9796 - val_loss: 0.7406 - val_mean_absolute_error: 0.0565 - val_acc: 0.8495
+Epoch 96/100
+4896/4907 [============================>.] - ETA: 0s - loss: 0.0883 - mean_absolute_error: 0.0125 - acc: 0.9820Epoch 00095: val_acc did not improve
+4907/4907 [==============================] - 7s - loss: 0.0884 - mean_absolute_error: 0.0125 - acc: 0.9821 - val_loss: 0.9719 - val_mean_absolute_error: 0.0693 - val_acc: 0.8018
+Epoch 97/100
+4864/4907 [============================>.] - ETA: 0s - loss: 0.0868 - mean_absolute_error: 0.0127 - acc: 0.9819Epoch 00096: val_acc did not improve
+4907/4907 [==============================] - 7s - loss: 0.0867 - mean_absolute_error: 0.0127 - acc: 0.9819 - val_loss: 0.7764 - val_mean_absolute_error: 0.0588 - val_acc: 0.8440
+Epoch 98/100
+4896/4907 [============================>.] - ETA: 0s - loss: 0.0933 - mean_absolute_error: 0.0131 - acc: 0.9794Epoch 00097: val_acc did not improve
+4907/4907 [==============================] - 7s - loss: 0.0936 - mean_absolute_error: 0.0131 - acc: 0.9792 - val_loss: 0.8887 - val_mean_absolute_error: 0.0654 - val_acc: 0.8239
+Epoch 99/100
+4864/4907 [============================>.] - ETA: 0s - loss: 0.0796 - mean_absolute_error: 0.0119 - acc: 0.9850Epoch 00098: val_acc did not improve
+4907/4907 [==============================] - 7s - loss: 0.0797 - mean_absolute_error: 0.0119 - acc: 0.9849 - val_loss: 0.8236 - val_mean_absolute_error: 0.0582 - val_acc: 0.8440
+Epoch 100/100
+4896/4907 [============================>.] - ETA: 0s - loss: 0.0861 - mean_absolute_error: 0.0124 - acc: 0.9816Epoch 00099: val_acc did not improve
+4907/4907 [==============================] - 7s - loss: 0.0860 - mean_absolute_error: 0.0123 - acc: 0.9817 - val_loss: 0.7352 - val_mean_absolute_error: 0.0559 - val_acc: 0.8495
+Saved model to disk, to folder  ./train_model
